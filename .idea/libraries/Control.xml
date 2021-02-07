@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Control">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Win32Project2/Win32Project2/Control/FileTreeViewControl.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Win32Project2/Win32Project2/Control/Control.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

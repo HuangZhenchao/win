@@ -1,0 +1,57 @@
+﻿  stdafx.cpp
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.h(4): warning C4005: “MAX_PATH”: 宏重定义
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\minwindef.h(60): note: 参见“MAX_PATH”的前一个定义
+  Win32Project-FileWatch.cpp
+  Transcoder.cpp
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(6): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(21): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(125): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(127): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(128): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(130): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(131): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(133): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(134): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(137): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(138): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(140): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h(101): note: 参见“wcscat”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\transcoder.cpp(210): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  FileWatch.cpp
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(36): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 2 拥有了类型“WCHAR *”
+  e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): note: 请考虑在格式字符串中使用“%ls”
+  e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): note: 请考虑在格式字符串中使用“%lls”
+  e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): note: 请考虑在格式字符串中使用“%Ls”
+  e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): note: 请考虑在格式字符串中使用“%ws”
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(68): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(71): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(132): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(133): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(251): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(252): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project-filewatch - 副本\win32project-filewatch\filewatch.cpp(298): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  正在生成代码...
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_close_v2，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_exec，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_open_v2，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_prepare_v2，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_int，该符号在函数 "private: void __cdecl FILEWATCH::FunDBInsert(struct sqlite3 *,struct sqlite3_stmt *,struct sqlite3_stmt *,wchar_t *,wchar_t *,struct _WIN32_FIND_DATAW *)" (?FunDBInsert@FILEWATCH@@AEAAXPEAUsqlite3@@PEAUsqlite3_stmt@@1PEA_W2PEAU_WIN32_FIND_DATAW@@@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_int64，该符号在函数 "private: void __cdecl FILEWATCH::FunDBInsert(struct sqlite3 *,struct sqlite3_stmt *,struct sqlite3_stmt *,wchar_t *,wchar_t *,struct _WIN32_FIND_DATAW *)" (?FunDBInsert@FILEWATCH@@AEAAXPEAUsqlite3@@PEAUsqlite3_stmt@@1PEA_W2PEAU_WIN32_FIND_DATAW@@@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_bind_text16，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_step，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_column_int，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+FileWatch.obj : error LNK2019: 无法解析的外部符号 sqlite3_reset，该符号在函数 "public: __cdecl FILEWATCH::FILEWATCH(struct HWND__ *,wchar_t *)" (??0FILEWATCH@@QEAA@PEAUHWND__@@PEA_W@Z) 中被引用
+sqlite3.lib : warning LNK4272: 库计算机类型“X86”与目标计算机类型“x64”冲突
+E:\OneDrive - elcass\MyProject\Win32Project-FileWatch - 副本\x64\Debug\Win32Project-FileWatch.exe : fatal error LNK1120: 10 个无法解析的外部命令

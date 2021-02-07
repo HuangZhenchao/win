@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“i”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“8”行(“e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>TreeViewDropFile::OnDrop</FUNCTION>
+    <DECORATED>?OnDrop@TreeViewDropFile@@UAEXPAUIDataObject@@KU_POINTL@@PAK@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>64</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“pItemData”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“53”行(“e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>TVW_CreateItemWnd</FUNCTION>
+    <DECORATED>?TVW_CreateItemWnd@@YAXPAVTREEVIEWINFO@@PAV?$TreeNode@PAVNODEDATA@@@@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“dwID”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“56”行(“e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>TVW_CreateItemWnd</FUNCTION>
+    <DECORATED>?TVW_CreateItemWnd@@YAXPAVTREEVIEWINFO@@PAV?$TreeNode@PAVNODEDATA@@@@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>56</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>70</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6246</DEFECTCODE>
+    <DESCRIPTION>“hWndItem”的局部声明遮蔽了外部作用域中具有相同名称的声明。有关其他信息，请参见此前位于“57”行(“e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp”中)的声明。</DESCRIPTION>
+    <FUNCTION>TVW_CreateItemWnd</FUNCTION>
+    <DECORATED>?TVW_CreateItemWnd@@YAXPAVTREEVIEWINFO@@PAV?$TreeNode@PAVNODEDATA@@@@@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>57</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>185</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“tempStr1”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>cbTreeTraversalHandler_FlushSize</FUNCTION>
+    <DECORATED>?cbTreeTraversalHandler_FlushSize@@YAHPAX0@Z</DECORATED>
+    <FUNCLINE>169</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>178</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>180</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“tempStr1”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是“_itow_s”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstdlib.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是对“std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::append”的输入(在 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring:2342 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“tempStr1”必须由“append”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>223</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“tempStr1”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>TraverseTree_FlushSize</FUNCTION>
+    <DECORATED>?TraverseTree_FlushSize@@YAXPAVTREEVIEWINFO@@PAV?$TreeNode@PAVNODEDATA@@@@@Z</DECORATED>
+    <FUNCLINE>203</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>210</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>211</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>214</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>219</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>220</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>221</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“tempStr1”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>222</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是“_itow_s”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstdlib.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是对“std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::append”的输入(在 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring:2342 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>223</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“tempStr1”必须由“append”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>310</LINE>
+      <COLUMN>25</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sfi”。</DESCRIPTION>
+    <FUNCTION>TVWP_Control</FUNCTION>
+    <DECORATED>?TVWP_Control@@YGJPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>260</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>294</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>295</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>296</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sfi”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>297</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“SUCCEEDED(hr)”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>302</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>303</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“sfi”是对“std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::=”的输入(在 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring:2249 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>304</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>309</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>310</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sfi”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>314</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sfi”。</DESCRIPTION>
+    <FUNCTION>TVWP_Control</FUNCTION>
+    <DECORATED>?TVWP_Control@@YGJPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>248</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>249</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>251</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>253</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>254</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>255</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>256</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>52</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>260</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>261</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>283</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>291</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>292</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>293</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>313</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sfi”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>314</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“sfi”是“SHGetFileInfoW”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\um\shellapi.h:1266 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>314</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sfi”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>459</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>使用未初始化的内存“sfi”。</DESCRIPTION>
+    <FUNCTION>TVWP_Control</FUNCTION>
+    <DECORATED>?TVWP_Control@@YGJPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>242</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>244</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>363</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>367</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>368</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>369</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>371</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>372</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>373</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>375</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>378</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>379</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>430</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>431</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>432</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>435</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>436</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>438</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>439</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>440</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>441</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>445</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>446</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>447</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>448</LINE>
+        <COLUMN>70</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>450</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>452</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>453</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>454</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>455</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>458</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>未初始化“sfi”</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>459</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“sfi”是“SHGetFileInfoW”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\um\shellapi.h:1266 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>459</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已使用“sfi”，但可能尚未将其初始化</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>treeviewcontrol.cpp</FILENAME>
+      <LINE>635</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“tempStr1”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>TVWP_Item</FUNCTION>
+    <DECORATED>?TVWP_Item@@YGJPAUHWND__@@IIJ@Z</DECORATED>
+    <FUNCLINE>558</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>561</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>622</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>625</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>626</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>627</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>629</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>630</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>631</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>633</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“tempStr1”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>634</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是“_itow_s”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstdlib.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>635</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是对“wcslen”的输入(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstring.h:130 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>treeviewcontrol.cpp</FILENAME>
+        <LINE>635</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“tempStr1”必须由“wcslen”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

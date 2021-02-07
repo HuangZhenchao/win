@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+      <FILENAME>transcoder.cpp</FILENAME>
+      <LINE>13</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>“pUnicode”使用数组 new [] 分配，但使用标量 delete 删除。</DESCRIPTION>
+    <FUNCTION>ANSIToUnicode</FUNCTION>
+    <DECORATED>?ANSIToUnicode@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z</DECORATED>
+    <FUNCLINE>2</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+        <FILENAME>transcoder.cpp</FILENAME>
+        <LINE>8</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+        <FILENAME>transcoder.cpp</FILENAME>
+        <LINE>13</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+      <FILENAME>transcoder.cpp</FILENAME>
+      <LINE>28</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6283</DEFECTCODE>
+    <DESCRIPTION>“pUnicode”使用数组 new [] 分配，但使用标量 delete 删除。</DESCRIPTION>
+    <FUNCTION>UTF8ToUnicode</FUNCTION>
+    <DECORATED>?UTF8ToUnicode@@YA?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@@Z</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+        <FILENAME>transcoder.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\base\</FILEPATH>
+        <FILENAME>transcoder.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

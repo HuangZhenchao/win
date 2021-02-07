@@ -1,0 +1,4 @@
+﻿  PKB.cpp
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com\pkb\pkb.cpp(93): warning C4312: “类型转换”: 从“DWORD”转换到更大的“HMENU”
+  PKB.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com\x64\Debug\PKB.dll
+  PKB.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com\x64\Debug\PKB.pdb (Partial PDB)

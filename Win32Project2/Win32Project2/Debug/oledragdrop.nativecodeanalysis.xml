@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.h</FILENAME>
+      <LINE>149</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>索引“1”超出了“0”至“0”的有效范围(对于可能在堆栈中分配的缓冲区“pFormatEtcAcceptable”)。</DESCRIPTION>
+    <FUNCTION>Editer::{ctor}</FUNCTION>
+    <DECORATED>??0Editer@@QAE@XZ</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>“dest”可以是“0”，并且是“GlobalAlloc()`79”中找到的值的副本: 这不符合函数“memcpy”的规范。</DESCRIPTION>
+    <FUNCTION>TDataObject::DupGlobalMem</FUNCTION>
+    <DECORATED>?DupGlobalMem@TDataObject@@AAEPAXPAX@Z</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>“source”可能是“0”: 这不符合函数“memcpy”的规范。</DESCRIPTION>
+    <FUNCTION>TDataObject::DupGlobalMem</FUNCTION>
+    <DECORATED>?DupGlobalMem@TDataObject@@AAEPAXPAX@Z</DECORATED>
+    <FUNCLINE>75</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>77</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>78</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“source”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>79</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“source”是对“memcpy”的输入(在 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vcruntime_string.h:40 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>80</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“source”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.cpp</FILENAME>
+      <LINE>218</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>取消对 NULL 指针“dest-&gt;ptd”的引用。</DESCRIPTION>
+    <FUNCTION>TEnumFormatEtc::DeepCopyFormatEtc</FUNCTION>
+    <DECORATED>?DeepCopyFormatEtc@TEnumFormatEtc@@QAEXPAUtagFORMATETC@@0@Z</DECORATED>
+    <FUNCLINE>209</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>212</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>216</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“dest-&gt;ptd”可能为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>218</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>已取消对“dest-&gt;ptd”的引用，但可能仍为 NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.cpp</FILENAME>
+      <LINE>287</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>“ptr”可以是“0”，并且是“GlobalAlloc()`286”中找到的值的副本: 这不符合函数“memcpy”的规范。</DESCRIPTION>
+    <FUNCTION>MemToHandle</FUNCTION>
+    <DECORATED>?MemToHandle@@YAPAXPAXH@Z</DECORATED>
+    <FUNCLINE>284</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+        <FILENAME>oledragdrop.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

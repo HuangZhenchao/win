@@ -1,0 +1,127 @@
+﻿  Win32-ZXKMS-95zhixue.com.cpp
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(91): error C3867: “std::vector<std::wstring,std::allocator<_Ty>>::end”: 非标准语法；请使用 "&" 来创建指向成员的指针
+          with
+          [
+              _Ty=std::wstring
+          ]
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(91): error C2678: 二进制“!=”: 没有找到接受“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>>”类型的左操作数的运算符(或没有可接受的转换)
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\vector(209): note: 可能是“bool std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>>::operator !=(const std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>> &) const”
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\shared\guiddef.h(197): note: 或    “bool operator !=(const GUID &,const GUID &)”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\system_error(416): note: 或    “bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\system_error(409): note: 或    “bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\system_error(402): note: 或    “bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\system_error(395): note: 或    “bool std::operator !=(const std::error_code &,const std::error_code &) noexcept”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\exception(361): note: 或    “bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\exception(356): note: 或    “bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()”
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\exception(351): note: 或    “bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(91): note: 尝试匹配参数列表“(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>>>>, overloaded-function)”时
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(130): error C2561: “TREEVIEWDATA::PathStringToVector”: 函数必须返回值
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(123): note: 参见“TREEVIEWDATA::PathStringToVector”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(132): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2065: “vTVInfo”: 未声明的标识符
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2228: “.ft”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2228: “.dIndent”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2228: “.vTreeNode”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2227: “->data”的左边必须指向类/结构/联合/泛型类型
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(48): error C2228: “.depth”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2065: “vTVInfo”: 未声明的标识符
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2228: “.ft”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2228: “.vTreeNode”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2227: “->data”的左边必须指向类/结构/联合/泛型类型
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2228: “.FileData”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(49): error C2228: “.cFileName”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2065: “vTVInfo”: 未声明的标识符
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2228: “.ft”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2228: “.vTreeNode”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2227: “->data”的左边必须指向类/结构/联合/泛型类型
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2228: “.FileData”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2228: “.cFileName”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewcontrol.h(50): error C2660: “TextOutW”: 函数不接受 2 个参数
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(13): error C2011: “NODEDATA”:“class”类型重定义
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(52): error C2079: “NodeData”使用未定义的 class“NODEDATA”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(53): error C2228: “.depth”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(53): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(54): error C2228: “.isExpand”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(54): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(55): error C2228: “.FileData”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(55): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(58): error C2679: 二进制“=”: 没有找到接受“int”类型的右操作数的运算符(或没有可接受的转换)
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(28): note: 可能是“NODEDATA &NODEDATA::operator =(NODEDATA &&) noexcept(<expr>)”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(28): note: 或    “NODEDATA &NODEDATA::operator =(const NODEDATA &)”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(58): note: 尝试匹配参数列表“(NODEDATA, int)”时
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(77): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(102): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(103): error C2079: “NodeData”使用未定义的 class“NODEDATA”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(104): error C2228: “.depth”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(104): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(104): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(105): error C2228: “.isExpand”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(105): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(106): error C2228: “.FileData”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(106): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(112): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(117): error C2228: “.isExpand”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(117): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(122): error C2679: 二进制“=”: 没有找到接受“int”类型的右操作数的运算符(或没有可接受的转换)
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(28): note: 可能是“NODEDATA &NODEDATA::operator =(NODEDATA &&) noexcept(<expr>)”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(28): note: 或    “NODEDATA &NODEDATA::operator =(const NODEDATA &)”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(122): note: 尝试匹配参数列表“(NODEDATA, int)”时
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(128): error C2228: “.isExpand”的左边必须有类/结构/联合
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\filetree.h(128): note: 类型是“int”
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(61): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(66): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(66): error C2228: “.FileData”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(66): error C2228: “.cFileName”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(66): error C2660: “GetTextExtentPoint32W”: 函数不接受 2 个参数
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(67): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(67): error C2228: “.depth”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(82): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(113): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(113): error C2228: “.depth”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(114): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(114): error C2228: “.FileData”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(114): error C2228: “.cFileName”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(115): error C2027: 使用了未定义类型“NODEDATA”
+  e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeviewdata.h(18): note: 参见“NODEDATA”的声明
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(115): error C2228: “.FileData”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(115): error C2228: “.cFileName”的左边必须有类/结构/联合
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\treeview.h(115): error C2660: “TextOutW”: 函数不接受 2 个参数
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(153): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(275): warning C4018: “>”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(286): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(302): warning C4018: “>”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(315): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(330): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(341): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\windowwithscroll.h(342): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(215): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(217): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(219): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(221): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(223): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(226): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(229): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(231): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(233): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(236): warning C4018: “>”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(238): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(241): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(246): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(248): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(252): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(256): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(272): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(278): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(287): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(289): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(294): warning C4018: “>”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(304): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com - test\win32-zxkms-95zhixue.com\win32-zxkms-95zhixue.com.cpp(308): warning C4018: “<”: 有符号/无符号不匹配

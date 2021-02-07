@@ -1,0 +1,4 @@
+﻿  NovelWriter.cpp
+e:\onedrive - elcass\myproject\win32-zxkms-95zhixue.com\novelwriter\novelwriter.cpp(98): warning C4312: “类型转换”: 从“DWORD”转换到更大的“HMENU”
+  NovelWriter.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com\x64\Debug\NovelWriter.dll
+  NovelWriter.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com\x64\Debug\NovelWriter.pdb (Partial PDB)

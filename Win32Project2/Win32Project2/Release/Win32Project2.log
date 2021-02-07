@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+e:\onedrive - elcass\myproject\win32project2\win32project2\base/FileSystem.h(53): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\onedrive - elcass\myproject\win32project2\win32project2\base/FileSystem.h(97): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\onedrive - elcass\myproject\win32project2\win32project2\base/FileSystem.h(176): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\corecrt_wstring.h(121): note: 参见“wcscpy”的声明
+  TreeView.cpp
+TreeViewControl\TreeView.cpp(329): fatal error C1010: 在查找预编译头时遇到意外的文件结尾。是否忘记了向源中添加“#include "stdafx.h"”?
+  Win32Project2.cpp
+e:\onedrive - elcass\myproject\win32project2\win32project2\base/function.h(26): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\ucrt\stdlib.h(924): note: 参见“mbstowcs”的声明

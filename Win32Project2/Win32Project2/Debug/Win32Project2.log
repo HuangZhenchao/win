@@ -1,0 +1,11 @@
+﻿  TreeViewControl.cpp
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(23): warning C4018: “<”: 有符号/无符号不匹配
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(86): warning C4244: “参数”: 从“DOUBLE”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(499): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(542): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(217): warning C4101: “endtime”: 未引用的局部变量
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(216): warning C4101: “end”: 未引用的局部变量
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(216): warning C4101: “start”: 未引用的局部变量
+e:\onedrive - elcass\myproject\win32project2\win32project2\control\treeviewcontrol.cpp(699): warning C4101: “rcDebug”: 未引用的局部变量
+  Win32Project2.vcxproj -> E:\OneDrive - elcass\MyProject\Win32Project2\Debug\Win32Project2.exe
+  Win32Project2.vcxproj -> E:\OneDrive - elcass\MyProject\Win32Project2\Debug\Win32Project2.pdb (Partial PDB)

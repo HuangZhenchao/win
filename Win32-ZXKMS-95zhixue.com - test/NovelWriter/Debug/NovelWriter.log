@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com - test\Debug\NovelWriter.exe) 与 Linker 的 OutputFile 属性值(E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com - test\Debug\NovelWriter\NovelWriter.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+NovelWriter.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/INCREMENTAL:NO”规范)
+  NovelWriter.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com - test\Debug\NovelWriter.exe
+  NovelWriter.vcxproj -> E:\OneDrive - elcass\MyProject\Win32-ZXKMS-95zhixue.com - test\Debug\NovelWriter.pdb (Partial PDB)

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\rapidjson\</FILEPATH>
+      <FILENAME>writer.h</FILENAME>
+      <LINE>548</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6313</DEFECTCODE>
+    <DESCRIPTION>运算符不正确: 不能使用按位与来测试零值标志。 应使用相等测试来检查零值标志。</DESCRIPTION>
+    <FUNCTION>rapidjson::Writer&lt;rapidjson::GenericStringBuffer&lt;rapidjson::UTF8&lt;char&gt;,rapidjson::CrtAllocator&gt;,rapidjson::UTF8&lt;char&gt;,rapidjson::UTF8&lt;char&gt;,rapidjson::CrtAllocator,0&gt;::WriteDouble</FUNCTION>
+    <DECORATED>?WriteDouble@?$Writer@V?$GenericStringBuffer@U?$UTF8@D@rapidjson@@VCrtAllocator@2@@rapidjson@@U?$UTF8@D@2@U32@VCrtAllocator@2@$0A@@rapidjson@@IAE_NN@Z</DECORATED>
+    <FUNCLINE>545</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\ole\</FILEPATH>
+      <FILENAME>oledragdrop.h</FILENAME>
+      <LINE>149</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>索引“1”超出了“0”至“0”的有效范围(对于可能在堆栈中分配的缓冲区“pFormatEtcAcceptable”)。</DESCRIPTION>
+    <FUNCTION>Editer::{ctor}</FUNCTION>
+    <DECORATED>??0Editer@@QAE@XZ</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

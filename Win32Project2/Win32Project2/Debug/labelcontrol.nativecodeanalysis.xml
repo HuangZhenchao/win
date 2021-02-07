@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+      <FILENAME>labelcontrol.cpp</FILENAME>
+      <LINE>41</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>可能没有为字符串“tempStr1”添加字符串零终止符。</DESCRIPTION>
+    <FUNCTION>LABELCONTROLINFO::GetDebugString</FUNCTION>
+    <DECORATED>?GetDebugString@LABELCONTROLINFO@@QAE?AV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@XZ</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>38</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>此表达式不能为“tempStr1”添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是“_itow_s”中的输出(在 c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\corecrt_wstdlib.h:62 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tempStr1”是对“std::basic_string&lt;wchar_t,std::char_traits&lt;wchar_t&gt;,std::allocator&lt;wchar_t&gt; &gt;::append”的输入(在 c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.10.25017\include\xstring:2342 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>e:\onedrive - elcass\myproject\win32project2\win32project2\control\</FILEPATH>
+        <FILENAME>labelcontrol.cpp</FILENAME>
+        <LINE>41</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“tempStr1”必须由“append”上的 SAL 批注添加字符串零终止符</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

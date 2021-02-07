@@ -1,0 +1,8 @@
+﻿  Win32_MovieTranscoder.cpp
+d:\onedrive - elcass\myproject\win32_movietranscoder\win32_movietranscoder\win32_movietranscoder.cpp(160): warning C4554: “|”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+d:\onedrive - elcass\myproject\win32_movietranscoder\win32_movietranscoder\win32_movietranscoder.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+d:\onedrive - elcass\myproject\win32_movietranscoder\win32_movietranscoder\win32_movietranscoder.cpp(185): warning C4244: “初始化”: 从“std::streamsize”转换到“int”，可能丢失数据
+d:\onedrive - elcass\myproject\win32_movietranscoder\win32_movietranscoder\win32_movietranscoder.cpp(147): warning C4101: “end”: 未引用的局部变量
+d:\onedrive - elcass\myproject\win32_movietranscoder\win32_movietranscoder\win32_movietranscoder.cpp(147): warning C4101: “start”: 未引用的局部变量
+  Win32_MovieTranscoder.vcxproj -> D:\OneDrive - elcass\MyProject\Win32_MovieTranscoder\Debug\Win32_MovieTranscoder.exe
+  Win32_MovieTranscoder.vcxproj -> D:\OneDrive - elcass\MyProject\Win32_MovieTranscoder\Debug\Win32_MovieTranscoder.pdb (Partial PDB)
